@@ -3,26 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CleanHome - Login</title>
+    <title>CleanHome - Signup</title>
     <link rel="stylesheet" href="../public/css/loginstyles.css">
 </head>
 <body>
-    <?php
-        session_start();  // Start the session
-
-        // Include the database connection
-        require_once '../config/connect.php';
-        require_once '../controller/UserController.php';
-
-        // Instantiate the UserController with the database connection
-        $userController = new UserController($conn);
-
-        // Call the login function if the form is submitted
-        if ($_SERVER["REQUEST_METHOD"] == "POST") {
-            $userController->login();
-        }
-    ?>
-
     <header>
         <div class="container">
             <div class="logo">
@@ -49,33 +33,40 @@
     <main>
         <div class="login-container">
             <div class="login-box">
-                <h2>Welcome Back!</h2>
-                <p class="subtitle">Login to book your next cleaning service</p>
+                <h2>Let's create your account!</h2>
+                <p class="subtitle">So you can book and schedule our services anytime,<br> anywhere.</p>
                 
-                <form class="login-form" method="post" action="login.php" >
+                <form class="login-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="name" id="name" placeholder="(e.g. John C. Cruz)">
+                    </div>
                     <div class="form-group">
                         <label for="email">Email Address</label>
-                        <input type="email" id="email" name="email" placeholder="Enter your email">
+                        <input type="email" id="email" placeholder="example@acc.com" onblur="validateEmail()">
                     </div>
-                    
+                    <div id="email-error" class="error-message"></div>
+                    <br>
+                    <div class="form-group">
+                        <label for="birthday">Birthday</label>
+                        <input type="birthday" id="birthday" placeholder="Enter your password">
+                    </div>                   
                     <div class="form-group">
                         <label for="password">Password</label>
-                        <input type="password" id="password" name="password" placeholder="Enter your password">
+                        <input type="password" id="password" placeholder="Enter your password">
+                    </div>
+                    <div id="password-error"></div>
+                    <div class="form-group">
+                        <label for="repassword">Re-password</label>
+                        <input type="password" id="password" placeholder="Enter your password">
                     </div>
                     
-                    <div class="form-options">
-                        <div class="remember-me">
-                            <input type="checkbox" id="remember">
-                            <label for="remember">Remember me</label>
-                        </div>
-                        <a href="#" class="forgot-password">Forgot Password?</a>
-                    </div>
-                    
+
                     <button type="submit" class="btn-login-form">Log In</button>
                 </form>
                 
                 <div class="login-footer">
-                    <p>Don't have an account? <a href="sign-up.html" class="signup-link">Sign Up</a></p>
+                    <p>Already have an acoount? <a href="login.html" class="signup-link">Log in</a></p>
                 </div>
             </div>
             
@@ -96,5 +87,6 @@
         </div>
     </footer>
 
+    <script src="../public/js/validator.js"></script>
 </body>
 </html>
