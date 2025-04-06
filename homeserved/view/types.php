@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+    <?php
+        session_start();  // Make sure session is started
+    ?>
     <header>
         <div class="container">
             <div class="logo">
@@ -23,11 +26,9 @@
                     <li><a href="#">Be a Cleanhome Partner</a></li>
                 </ul>
             </nav>
-            <div class="login-btn">
-                <a href="login.html">
-                    <button class="btn-login">Log In</button>
-                </a>
-            </div>
+            <?php
+                    require_once '../view/login_nav.php'; 
+            ?>
             
         </div>
     </header>
