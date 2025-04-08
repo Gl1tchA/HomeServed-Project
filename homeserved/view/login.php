@@ -31,10 +31,10 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="../public/homepage.html"><img src="image/home-icon.png" alt="Home"></a></li>
-                    <li><a href="aboutus.html">About</a></li>
-                    <li><a href="types.html">Types of Cleaning</a></li>
-                    <li><a href="#">FAQs</a></li>
+                    <li><a href="../public/homepage.php"><img src="../public/image/home-icon.png" alt="Home"></a></li>
+                    <li><a href="../public/view/aboutus.php">About</a></li>
+                    <li><a href="../public/view/types.php">Types of Cleaning</a></li>
+                    <li><a href="../public/view/faq.php">FAQs</a></li>
                     <li><a href="#">Be a Cleanhome Partner</a></li>
                 </ul>
             </nav>
@@ -81,7 +81,7 @@
             
             <div class="login-image">
                 <div class="green-circle"></div>
-                <img src="../public/image/cleaners.png" alt="Professional Cleaners">
+                <img src="../public/image/cleaners.jpg" alt="Professional Cleaners">
                 <div class="login-message">
                     <h3>Your clean home is just a click away!</h3>
                     <p>Professional cleaners ready to transform your space</p>

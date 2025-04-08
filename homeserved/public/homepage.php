@@ -18,10 +18,10 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="homepage.html"><img src="image/home-icon.png" alt="Home"></a></li>
-                    <li><a href="../view/aboutus.html">About</a></li>
-                    <li><a href="../view/types.html">Types of Cleaning</a></li>
-                    <li><a href="#">FAQs</a></li>
+                    <li><a href="homepage.php"><img src="../public/image/home-icon.png" alt="Home"></a></li>
+                    <li><a href="../view/aboutus.php">About</a></li>
+                    <li><a href="../view/types.php">Types of Cleaning</a></li>
+                    <li><a href="../view/faq.php">FAQs</a></li>
                     <li><a href="#">Be a Cleanhome Partner</a></li>
                 </ul>
             </nav>
@@ -43,7 +43,7 @@
                     
                     <div class="cleaning-panel">
                         <h2>What can we clean for you today?</h2>
-                        <p class="locations">We're now cleaning in BGC, sdsdsMakati, Mandaluyong, Manila, Paranaque, Pasay, Pasig, Quezon City, Taguig</p>
+                        <p class="locations">We're now cleaning in BGC, Makati, Mandaluyong, Manila, Paranaque, Pasay, Pasig, Quezon City, Taguig</p>
                         
                         <div class="service-cards">
                             <div class="service-card">
@@ -71,7 +71,7 @@
                 </div>
                 <div class="hero-image">
                     <div class="green-circle"></div>
-                    <img src="image/cleaners.png" alt="Professional Cleaners">
+                    <img src="image/cleaners.jpg" alt="Professional Cleaners">
                 </div>
             </div>
         </section>

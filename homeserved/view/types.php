@@ -19,11 +19,11 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="../public/homepage.html"><img src="image/home-icon.png" alt="Home"></a></li>
-                    <li><a href="aboutus.html">About</a></li>
-                    <li><a href="types.html" class="active">Types of Cleaning</a></li>
-                    <li><a href="#">FAQs</a></li>
-                    <li><a href="#">Be a Cleanhome Partner</a></li>
+                        <li><a href="../public/homepage.php"><img src="../public/image/home-icon.png" alt="Home"></a></li>
+                        <li><a href="../view/aboutus.php">About</a></li>
+                        <li><a href="../view/types.php" class="active">Types of Cleaning</a></li>
+                        <li><a href="../view/faq.php">FAQs</a></li>
+                        <li><a href="#">Be a Cleanhome Partner</a></li>
                 </ul>
             </nav>
             <?php
