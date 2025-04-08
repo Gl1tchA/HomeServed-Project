@@ -43,7 +43,7 @@
                     
                     <div class="cleaning-panel">
                         <h2>What can we clean for you today?</h2>
-                        <p class="locations">We're now cleaning in BGC, Makati, Mandaluyong, Manila, Paranaque, Pasay, Pasig, Quezon City, Taguig</p>
+                        <p class="locations">We're now cleaning in BGC, sdsdsMakati, Mandaluyong, Manila, Paranaque, Pasay, Pasig, Quezon City, Taguig</p>
                         
                         <div class="service-cards">
                             <div class="service-card">
