@@ -1,0 +1,82 @@
+<div class="main-content">
+    <div class="content-header">
+        <h1>My Profile</h1>
+        <p>Manage and protect your account</p>
+    </div>
+
+    <form id="profile-form">
+        <div class="form-group">
+            <div class="form-label">Username</div>
+            <div class="form-input">
+                <input type="text" value="lucky313" readonly>
+                <div class="form-hint">Username can only be changed once.</div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="form-label">Name</div>
+            <div class="form-input">
+                <input type="text" value="">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="form-label">Email</div>
+            <div class="form-input">
+                <span class="masked-info">am********@gmail.com</span>
+                <a href="#" class="change-link">Change</a>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="form-label">Phone Number</div>
+            <div class="form-input">
+                <span class="masked-info">*********90</span>
+                <a href="#" class="change-link">Change</a>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="form-label">Gender</div>
+            <div class="form-input">
+                <div class="radio-group">
+                    <label class="radio-option">
+                        <input type="radio" name="gender" value="male" checked> Male
+                    </label>
+                    <label class="radio-option">
+                        <input type="radio" name="gender" value="female"> Female
+                    </label>
+                    <label class="radio-option">
+                        <input type="radio" name="gender" value="other"> Other
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="form-label">Date of birth</div>
+            <div class="form-input">
+                <span class="masked-info">**/*/2003</span>
+                <div class="form-hint">You have already done KYC. Changing your birthday is not permitted.</div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="form-label"></div>
+            <div class="profile-image">
+                <div class="profile-avatar">
+                    <img src="/api/placeholder/100/100" alt="Profile picture">
+                </div>
+                <button type="button" class="select-image-btn">Select Image</button>
+                <div class="image-requirements">
+                    File size: maximum 1 MB<br>
+                    File extension: JPEG, PNG
+                </div>
+            </div>
+        </div>
+
+        <div class="save-btn-container">
+            <button type="submit" class="save-btn">Save</button>
+        </div>
+    </form>
+</div>
