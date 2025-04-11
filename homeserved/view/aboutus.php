@@ -19,9 +19,9 @@
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="../public/homepage.html"><img src="home-icon.png" alt="Home"></a></li>
-                        <li><a href="aboutus.html" class="active">About</a></li>
-                        <li><a href="types.html">Types of Cleaning</a></li>
+                        <li><a href="../public/homepage.php"><img src="home-icon.png" alt="Home"></a></li>
+                        <li><a href="aboutus.php" class="active">About</a></li>
+                        <li><a href="types.php">Types of Cleaning</a></li>
                         <li><a href="#">FAQs</a></li>
                         <li><a href="#">Be a Cleanhome Partner</a></li>
                     </ul>

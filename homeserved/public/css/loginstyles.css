@@ -169,6 +169,22 @@ footer {
     border-radius: 8px;
     font-size: 16px;
 }
+.form-group select{
+    padding: 12px 2px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.oneline {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap; /* Optional: allows them to wrap on small screens */
+    margin-bottom: 1rem;
+}
+.form-field {
+    flex: 1;
+    min-width: 150px;
+}
 
 .form-options {
     display: flex;

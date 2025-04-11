@@ -31,15 +31,15 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="../public/homepage.html"><img src="image/home-icon.png" alt="Home"></a></li>
-                    <li><a href="aboutus.html">About</a></li>
-                    <li><a href="types.html">Types of Cleaning</a></li>
+                    <li><a href="../public/homepage.php"><img src="image/home-icon.png" alt="Home"></a></li>
+                    <li><a href="aboutus.php">About</a></li>
+                    <li><a href="types.php">Types of Cleaning</a></li>
                     <li><a href="#">FAQs</a></li>
                     <li><a href="#">Be a Cleanhome Partner</a></li>
                 </ul>
             </nav>
             <div class="login-btn">
-                <a href="login.html">
+                <a href="login.php">
                     <button class="btn-login">Log In</button>
                 </a>
             </div>
@@ -75,7 +75,7 @@
                 </form>
                 
                 <div class="login-footer">
-                    <p>Don't have an account? <a href="sign-up.html" class="signup-link">Sign Up</a></p>
+                    <p>Don't have an account? <a href="sign-up.php" class="signup-link">Sign Up</a></p>
                 </div>
             </div>
             

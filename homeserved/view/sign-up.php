@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CleanHome - Signup</title>
-    <link rel="stylesheet" href="../public/css/loginstyles.css">
+    <link rel="stylesheet" href="../public/css/loginstyles.css?v=1.0.1">
 </head>
 <body>
     <?php
@@ -30,15 +30,15 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="../public/homepage.html"><img src="image/home-icon.png" alt="Home"></a></li>
-                    <li><a href="aboutus.html">About</a></li>
-                    <li><a href="types.html">Types of Cleaning</a></li>
+                    <li><a href="../public/homepage.php"><img src="image/home-icon.png" alt="Home"></a></li>
+                    <li><a href="aboutus.php">About</a></li>
+                    <li><a href="types.php">Types of Cleaning</a></li>
                     <li><a href="#">FAQs</a></li>
                     <li><a href="#">Be a Cleanhome Partner</a></li>
                 </ul>
             </nav>
             <div class="login-btn">
-                <a href="login.html">
+                <a href="login.php">
                     <button class="btn-login">Log In</button>
                 </a>
             </div>
@@ -54,10 +54,28 @@
                 <p class="subtitle">So you can book and schedule our services anytime,<br> anywhere.</p>
                 
                 <form class="login-form" method="post" action="sign-up.php">
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="name" id="name" name="name" placeholder="(e.g. John C. Cruz)">
+                    <div class="form-group oneline">
+                        <div class="form-field">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="fname" placeholder="First name">
+                        </div>
+                        <div class="form-field">
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lname" placeholder="Last name">
+                        </div>
+                        <div>
+                    <label  for="suffix">Suffix</label>
+                            <select id="suffix" name="suffix">
+                                <option value="">None</option>
+                                <option value="Jr.">Jr.</option>
+                                <option value="Sr.">Sr.</option>
+                                <option value="II">II</option>
+                                <option value="III">III</option>
+                                <option value="IV">IV</option>
+                            </select>
+                        </div>
                     </div>
+
                     <div class="form-group">
                         <label for="email">Email Address</label>
                         <input type="email" id="email" name="email" placeholder="example@acc.com" onblur="validateEmail()">
@@ -83,11 +101,11 @@
                     </div>
                     
 
-                    <button type="submit" class="btn-login-form">Log In</button>
+                    <button type="submit" class="btn-login-form">Sign-up</button>
                 </form>
                 
                 <div class="login-footer">
-                    <p>Already have an acoount? <a href="login.html" class="signup-link">Log in</a></p>
+                    <p>Already have an acoount? <a href="login.php" class="signup-link">Log in</a></p>
                 </div>
             </div>
             

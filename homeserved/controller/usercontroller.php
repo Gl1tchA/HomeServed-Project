@@ -14,20 +14,22 @@ class UserController {
         // Check if the form is submitted via POST
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // Retrieve form data from POST request
-            $name = $_POST['name'] ?? ''; // If the name isn't set, use an empty string
+            $fname = $_POST['fname'] ?? ''; // If the name isn't set, use an empty string
+            $lname = $_POST['lname'] ?? '';
+            $suffix = $_POST['suffix'] ?? '';
             $email = $_POST['email'] ?? '';
             $birthday = $_POST['birthday'] ?? '';
             $address = $_POST['address'] ?? '';
             $password = $_POST['password'] ?? '';
 
             // Basic validation
-            if (empty($name) || empty($email) || empty($password)) {
+            if (empty($fname) || empty($lname) || empty($email) || empty($password)) {
                 echo "All fields are required!";
                 return;
             }
 
             // Call the User model to create a new account
-            $result = $this->user->createAccount($name, $email, $birthday, $address, $password);
+            $result = $this->user->createAccount($fname, $lname, $suffix, $email, $birthday, $address, $password);
 
             // Check if the account creation was successful
             if ($result) {
