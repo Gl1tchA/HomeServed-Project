@@ -81,7 +81,7 @@
             
             <div class="login-image">
                 <div class="green-circle"></div>
-                <img src="../public/image/cleaners.jpg" alt="Professional Cleaners">
+                <img src="../public/image/cleaners.png" alt="Professional Cleaners">
                 <div class="login-message">
                     <h3>Your clean home is just a click away!</h3>
                     <p>Professional cleaners ready to transform your space</p>

@@ -71,7 +71,7 @@
                 </div>
                 <div class="hero-image">
                     <div class="green-circle"></div>
-                    <img src="image/cleaners.jpg" alt="Professional Cleaners">
+                    <img src="image/cleaners.png" alt="Professional Cleaners">
                 </div>
             </div>
         </section>
