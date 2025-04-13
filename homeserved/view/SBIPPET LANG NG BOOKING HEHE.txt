@@ -1,0 +1,52 @@
+<div class="main-content">
+            <div class="content-header">
+                <h1>My Bookings</h1>
+            </div>
+                <div class="bookings-container">                  
+                    <!-- Empty state message -->
+                    <div class="empty-bookings">
+                        <div class="empty-icon">📅</div>
+                        <h3 class="empty-title">No Bookings Found</h3>
+                        <p class="empty-message">You don't have any bookings yet. Browse services and make your first booking!</p>
+                        <button class="browse-btn">Browse Services</button>
+                    </div>
+
+                    <!-- Booking items (hidden by default, uncomment when you have bookings) -->
+    <!--
+    <div class="booking-list">
+        <div class="booking-item">
+            <div class="booking-header">
+                <div class="booking-id">
+                    <span class="label">Booking ID:</span>
+                    <span class="value">BK12345678</span>
+                </div>
+                <div class="booking-date">Booked on: 12 Apr 2025</div>
+                <div class="booking-status confirmed">Confirmed</div>
+            </div>
+            <div class="booking-content">
+                <div class="service-image">
+                    <img src="/api/placeholder/80/80" alt="Service image">
+                </div>
+                <div class="booking-details">
+                    <h3 class="service-name">Service Name Goes Here</h3>
+                    <div class="service-provider">Provider: Service Provider Name</div>
+                    <div class="appointment-time">
+                        <span class="label">Appointment:</span>
+                        <span class="value">15 Apr 2025, 10:00 AM</span>
+                    </div>
+                    <div class="booking-price">₱1,500.00</div>
+                </div>
+            </div>
+            <div class="booking-actions">
+                <button class="action-btn view-details">View Details</button>
+                <button class="action-btn reschedule">Reschedule</button>
+                <button class="action-btn cancel">Cancel Booking</button>
+            </div>
+        </div>
+    </div>
+    -->
+
+
+
+            </div>
+        </div>

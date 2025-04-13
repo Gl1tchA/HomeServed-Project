@@ -264,4 +264,178 @@ footer {
 }
 
 
+.bookings-container {
+    font-family: Arial, sans-serif;
+}
 
+
+
+
+/* Empty state */
+.empty-bookings {
+    text-align: center;
+    padding: 60px 0;
+    color: #888;
+}
+
+.empty-icon {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.empty-title {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.empty-message {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.browse-btn {
+    background-color: #ee4d2d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Booking list */
+.booking-list {
+    margin-top: 20px;
+}
+
+.booking-item {
+    border: 1px solid #eee;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.booking-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 15px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #eee;
+    font-size: 13px;
+}
+
+.booking-id .label {
+    color: #888;
+    margin-right: 5px;
+}
+
+.booking-id .value {
+    font-weight: 500;
+}
+
+.booking-date {
+    color: #888;
+}
+
+.booking-status {
+    font-weight: 600;
+}
+
+.booking-status.pending {
+    color: #f5a623;
+}
+
+.booking-status.confirmed {
+    color: #00b14f;
+}
+
+.booking-status.completed {
+    color: #4a90e2;
+}
+
+.booking-status.cancelled {
+    color: #ee4d2d;
+}
+
+.booking-content {
+    display: flex;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.service-image {
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+    border: 1px solid #eee;
+    overflow: hidden;
+}
+
+.service-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.booking-details {
+    flex: 1;
+}
+
+.service-name {
+    font-size: 16px;
+    margin: 0 0 5px;
+    color: #333;
+}
+
+.service-provider {
+    color: #888;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.appointment-time {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.appointment-time .label {
+    color: #888;
+}
+
+.booking-price {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ee4d2d;
+}
+
+.booking-actions {
+    display: flex;
+    padding: 12px 15px;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.action-btn {
+    padding: 6px 12px;
+    border-radius: 2px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.view-details {
+    background-color: white;
+    border: 1px solid #ddd;
+    color: #555;
+}
+
+.reschedule {
+    background-color: #4a90e2;
+    border: none;
+    color: white;
+}
+
+.cancel {
+    background-color: white;
+    border: 1px solid #ee4d2d;
+    color: #ee4d2d;
+}
