@@ -1,0 +1,48 @@
+<div class="main-content">
+            <div class="content-header">
+                <h1>Banks & Cards</h1>
+            </div>
+            
+            <div class="payment-section">
+                <div class="section-header">
+                    <h2>Credit / Debit Card</h2>
+                    <button class="add-btn">
+                        <span class="plus-icon">+</span> Add New Card
+                    </button>
+                </div>
+                
+                <div class="empty-state">
+                    <p>You don't have cards yet.</p>
+                </div>
+            </div>
+            
+            <div class="divider"></div>
+            
+            <div class="payment-section">
+                <div class="section-header">
+                    <h2>SeaBank</h2>
+                    <button class="link-btn">
+                        <span class="plus-icon">+</span> Link SeaBank Account
+                    </button>
+                </div>
+                
+                <div class="empty-state">
+                    <p>You don't have SeaBank account yet</p>
+                </div>
+            </div>
+            
+            <div class="divider"></div>
+            
+            <div class="payment-section">
+                <div class="section-header">
+                    <h2>My Bank Accounts</h2>
+                    <button class="add-btn">
+                        <span class="plus-icon">+</span> Add New Bank Account
+                    </button>
+                </div>
+                
+                <div class="empty-state">
+                    <p>You don't have bank accounts yet.</p>
+                </div>
+            </div>
+        </div>

@@ -1,0 +1,67 @@
+<div class="main-content">
+            <div class="content-header">
+                <h1>Notification Settings</h1>
+            </div>
+            
+            <div class="divider"></div>
+            
+            <div class="notification-section">
+                <div class="section-header">
+                    <h2>Email Notifications</h2>
+                    <p>Important account notifications and reminders cannot be turned off</p>
+                </div>
+                
+                <div class="notification-item">
+                    <div class="notification-info">
+                        <div class="notification-title">Order Updates</div>
+                        <div class="notification-desc">Updates on shipping and delivery status of all orders</div>
+                    </div>
+                    <div class="toggle-switch">
+                        <input type="checkbox" id="email-orders" class="toggle-input" checked>
+                        <label for="email-orders" class="toggle-label"></label>
+                    </div>
+                </div>
+                
+                <div class="notification-item">
+                    <div class="notification-info">
+                        <div class="notification-title">Promotions</div>
+                        <div class="notification-desc">Exclusive updates on upcoming deals and campaigns</div>
+                    </div>
+                    <div class="toggle-switch">
+                        <input type="checkbox" id="email-promos" class="toggle-input">
+                        <label for="email-promos" class="toggle-label"></label>
+                    </div>
+                </div>
+                
+                <div class="notification-item">
+                    <div class="notification-info">
+                        <div class="notification-title">Customer Surveys</div>
+                        <div class="notification-desc">Receive survey to help Shopee serve you better</div>
+                    </div>
+                    <div class="toggle-switch">
+                        <input type="checkbox" id="email-surveys" class="toggle-input" checked>
+                        <label for="email-surveys" class="toggle-label"></label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="divider"></div>
+            
+            <div class="notification-section">
+                <div class="section-header">
+                    <h2>SMS Notifications</h2>
+                    <p>Important account notifications and reminders cannot be turned off</p>
+                </div>
+                
+                <div class="notification-item">
+                    <div class="notification-info">
+                        <div class="notification-title">Promotions</div>
+                        <div class="notification-desc">Exclusive updates on upcoming deals and campaigns</div>
+                    </div>
+                    <div class="toggle-switch">
+                        <input type="checkbox" id="sms-promos" class="toggle-input">
+                        <label for="sms-promos" class="toggle-label"></label>
+                    </div>
+                </div>
+            </div>
+        </div>

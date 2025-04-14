@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CleanHome - Login</title>
-    <link rel="stylesheet" href="../public/css/address.css">
+    <link rel="stylesheet" href="../public/css/banksandcardsstyle.css">
 </head>
 <body>
     <header>
@@ -50,8 +50,8 @@
                 </div>
                 <div class="submenu">
                     <a href="profilepage.html" class="submenu-item">Profile</a>
-                    <a href="banksandcards.html" class="submenu-item">Banks & Cards</a>
-                    <a href="address.html" class="submenu-item active">Addresses</a>
+                    <a href="banksandcards.html" class="submenu-item active">Banks & Cards</a>
+                    <a href="address.html" class="submenu-item">Addresses</a>
                     <a href="changepassword.html" class="submenu-item">Change Password</a>
                     <a href="notification.html" class="submenu-item">Notification Settings</a>
                     <a href="accountdeletion.html" class="submenu-item">Account Deletion</a>
@@ -68,39 +68,49 @@
         <!-- Main content area -->
         <div class="main-content">
             <div class="content-header">
-                <h1>My Addresses</h1>
-            </div>
-        
-            <div class="address-actions-header">
-                <button class="add-address-btn">
-                    <span class="plus-icon">+</span> Add New Address
-                </button>
+                <h1>Banks & Cards</h1>
             </div>
             
-            <div class="address-list-container">
-                <div class="address-list-header">
-                    <span>Address</span>
+            <div class="payment-section">
+                <div class="section-header">
+                    <h2>Credit / Debit Card</h2>
+                    <button class="add-btn">
+                        <span class="plus-icon">+</span> Add New Card
+                    </button>
                 </div>
                 
-                <div class="address-item">
-                    <div class="address-info">
-                        <div class="address-name-phone">
-                            <span class="address-name">Amir Hollera</span>
-                            <span class="address-phone">(+63) 927 903 0090</span>
-                            <div class="address-actions">
-                                <a href="#" class="edit-link">Edit</a>
-                                <a href="#" class="delete-link">Delete</a>
-                            </div>
-                        </div>
-                        <div class="address-details">
-                            28 Venus Street, Greenland Subd<br>
-                            Rosario, Pasig City, Metro Manila, Metro Manila, 1609
-                        </div>
-                        <div class="address-tags">
-                            <span class="default-tag">Default</span>
-                            <button class="set-default-btn">Set as default</button>
-                        </div>
-                    </div>
+                <div class="empty-state">
+                    <p>You don't have cards yet.</p>
+                </div>
+            </div>
+            
+            <div class="divider"></div>
+            
+            <div class="payment-section">
+                <div class="section-header">
+                    <h2>SeaBank</h2>
+                    <button class="link-btn">
+                        <span class="plus-icon">+</span> Link SeaBank Account
+                    </button>
+                </div>
+                
+                <div class="empty-state">
+                    <p>You don't have SeaBank account yet</p>
+                </div>
+            </div>
+            
+            <div class="divider"></div>
+            
+            <div class="payment-section">
+                <div class="section-header">
+                    <h2>My Bank Accounts</h2>
+                    <button class="add-btn">
+                        <span class="plus-icon">+</span> Add New Bank Account
+                    </button>
+                </div>
+                
+                <div class="empty-state">
+                    <p>You don't have bank accounts yet.</p>
                 </div>
             </div>
         </div>

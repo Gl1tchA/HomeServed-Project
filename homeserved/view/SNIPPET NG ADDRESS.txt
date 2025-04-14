@@ -1,0 +1,38 @@
+<div class="main-content">
+            <div class="content-header">
+                <h1>My Addresses</h1>
+            </div>
+        
+            <div class="address-actions-header">
+                <button class="add-address-btn">
+                    <span class="plus-icon">+</span> Add New Address
+                </button>
+            </div>
+            
+            <div class="address-list-container">
+                <div class="address-list-header">
+                    <span>Address</span>
+                </div>
+                
+                <div class="address-item">
+                    <div class="address-info">
+                        <div class="address-name-phone">
+                            <span class="address-name">Amir Hollera</span>
+                            <span class="address-phone">(+63) 927 903 0090</span>
+                            <div class="address-actions">
+                                <a href="#" class="edit-link">Edit</a>
+                                <a href="#" class="delete-link">Delete</a>
+                            </div>
+                        </div>
+                        <div class="address-details">
+                            28 Venus Street, Greenland Subd<br>
+                            Rosario, Pasig City, Metro Manila, Metro Manila, 1609
+                        </div>
+                        <div class="address-tags">
+                            <span class="default-tag">Default</span>
+                            <button class="set-default-btn">Set as default</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

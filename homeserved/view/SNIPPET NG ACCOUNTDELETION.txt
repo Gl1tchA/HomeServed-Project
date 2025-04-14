@@ -1,0 +1,16 @@
+<div class="main-content">
+            <div class="content-header">
+                <h1>Privacy Settings</h1>
+            </div>
+            
+            <div class="divider"></div>
+            
+            <div class="setting-section">
+                <div class="setting-row">
+                    <div class="setting-label">Request Account Deletion</div>
+                    <div class="setting-action">
+                        <button class="delete-btn">Delete</button>
+                    </div>
+                </div>
+            </div>
+        </div>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CleanHome - Login</title>
+    <link rel="stylesheet" href="../public/css/notificationstyle.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="../public/image/house-icon.png" alt="House Icon">
+                <h1><span class="green">CLEAN</span>HOME</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../public/homepage.php"><img src="../public/image/home-icon.png" alt="Home"></a></li>
+                    <li><a href="../public/view/aboutus.php">About</a></li>
+                    <li><a href="../public/view/types.php">Types of Cleaning</a></li>
+                    <li><a href="../public/view/faq.php">FAQs</a></li>
+                    <li><a href="#">Be a Cleanhome Partner</a></li>
+                </ul>
+            </nav>
+            <div class="login-btn">
+                <a href="login.html">
+                    <button class="btn-login">Log In</button>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        
+        <!-- Main content container -->
+    <div class="container">
+        <!-- Left sidebar -->
+        <div class="sidebar">
+            <div class="user-info">
+                <div class="avatar">
+                    <img src="/api/placeholder/80/80" alt="Profile picture">
+                </div>
+                <div class="username">lucky313</div>
+                <a href="#" class="edit-profile">✏️ Edit Profile</a>
+            </div>
+
+            <div class="menu-item active">
+                <div class="menu-title">
+                    <i>👤</i> My Account
+                </div>
+                <div class="submenu">
+                    <a href="profilepage.html" class="submenu-item">Profile</a>
+                    <a href="banksandcards.html" class="submenu-item">Banks & Cards</a>
+                    <a href="address.html" class="submenu-item">Addresses</a>
+                    <a href="changepassword.html" class="submenu-item">Change Password</a>
+                    <a href="notification.html" class="submenu-item active">Notification Settings</a>
+                    <a href="accountdeletion.html" class="submenu-item">Account Deletion</a>
+                </div>
+            </div>
+
+            <a href="bookings.html" class="booking-item ">
+                <div class="booking-title">
+                    <i>🛒</i> My Bookings
+                </div>
+            </a>
+        </div>
+
+        <!-- Main content area -->
+        <div class="main-content">
+            <div class="content-header">
+                <h1>Notification Settings</h1>
+            </div>
+            
+            <div class="divider"></div>
+            
+            <div class="notification-section">
+                <div class="section-header">
+                    <h2>Email Notifications</h2>
+                    <p>Important account notifications and reminders cannot be turned off</p>
+                </div>
+                
+                <div class="notification-item">
+                    <div class="notification-info">
+                        <div class="notification-title">Order Updates</div>
+                        <div class="notification-desc">Updates on shipping and delivery status of all orders</div>
+                    </div>
+                    <div class="toggle-switch">
+                        <input type="checkbox" id="email-orders" class="toggle-input" checked>
+                        <label for="email-orders" class="toggle-label"></label>
+                    </div>
+                </div>
+                
+                <div class="notification-item">
+                    <div class="notification-info">
+                        <div class="notification-title">Promotions</div>
+                        <div class="notification-desc">Exclusive updates on upcoming deals and campaigns</div>
+                    </div>
+                    <div class="toggle-switch">
+                        <input type="checkbox" id="email-promos" class="toggle-input">
+                        <label for="email-promos" class="toggle-label"></label>
+                    </div>
+                </div>
+                
+                <div class="notification-item">
+                    <div class="notification-info">
+                        <div class="notification-title">Customer Surveys</div>
+                        <div class="notification-desc">Receive survey to help Shopee serve you better</div>
+                    </div>
+                    <div class="toggle-switch">
+                        <input type="checkbox" id="email-surveys" class="toggle-input" checked>
+                        <label for="email-surveys" class="toggle-label"></label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="divider"></div>
+            
+            <div class="notification-section">
+                <div class="section-header">
+                    <h2>SMS Notifications</h2>
+                    <p>Important account notifications and reminders cannot be turned off</p>
+                </div>
+                
+                <div class="notification-item">
+                    <div class="notification-info">
+                        <div class="notification-title">Promotions</div>
+                        <div class="notification-desc">Exclusive updates on upcoming deals and campaigns</div>
+                    </div>
+                    <div class="toggle-switch">
+                        <input type="checkbox" id="sms-promos" class="toggle-input">
+                        <label for="sms-promos" class="toggle-label"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="containerfooter">
+            <p>&copy; 2025 CleanHome. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
