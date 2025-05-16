@@ -23,7 +23,7 @@
                     <li><a href="../view/aboutus.php">About</a></li>
                     <li><a href="../view/types.php">Types of Cleaning</a></li>
                     <li><a href="../view/faq.php">FAQs</a></li>
-                    <li><a href="#">Be a Cleanhome Partner</a></li>
+                    <li><a href="../view/partner.php">Be a Cleanhome Partner</a></li>
                 </ul>
             </nav>
             <?php

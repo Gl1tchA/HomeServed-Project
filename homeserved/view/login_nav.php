@@ -69,9 +69,9 @@
         <li class="scroll-to-section profile-dropdown">
             <a href="#" class="profile-toggle">HELLO, <?php echo htmlspecialchars($_SESSION['name']); ?> <i class="fa fa-angle-down"></i></a>
             <div class="dropdown-menu">
-                <a href="profilepage.php">My Profile</a>
+                <a href="../view/profilepage.php">My Profile</a>
                 <a href="bookings.php">My Bookings</a>
-                <a href="api/logout.php">Logout</a>
+                <a href="../view/logout.php">Logout</a>
             </div>
         </li>
     </ul>
