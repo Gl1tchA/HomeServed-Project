@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CleanHome - Home Care Made Easy</title>
     <link rel="stylesheet" href="css/styles.css?v=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <?php
@@ -14,7 +15,7 @@
         <div class="container">
             <div class="logo">
                 <img src="image/house-icon.png" alt="House Icon">
-                <h1><span class="green">CLEAN</span>HOME</h1>
+                <h1><span class="green">HOME</span>SERVE</h1>
             </div>
             <nav>
                 <ul>
@@ -80,7 +81,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 CleanHome. All rights reserved.</p>
+            <p>&copy; 2025 HomeServe. All rights reserved.</p>
         </div>
     </footer>
 

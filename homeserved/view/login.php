@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CleanHome - Login</title>
     <link rel="stylesheet" href="../public/css/loginstyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <?php
@@ -31,15 +32,15 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="../public/homepage.php"><img src="../public/image/home-icon.png" alt="Home"></a></li>
-                    <li><a href="../public/view/aboutus.php">About</a></li>
-                    <li><a href="../public/view/types.php">Types of Cleaning</a></li>
-                    <li><a href="../public/view/faq.php">FAQs</a></li>
+                    <li><a href="../public/homepage.php"><img src="image/home-icon.png" alt="Home"></a></li>
+                    <li><a href="aboutus.php">About</a></li>
+                    <li><a href="types.php">Types of Cleaning</a></li>
+                    <li><a href="#">FAQs</a></li>
                     <li><a href="#">Be a Cleanhome Partner</a></li>
                 </ul>
             </nav>
             <div class="login-btn">
-                <a href="login.html">
+                <a href="login.php">
                     <button class="btn-login">Log In</button>
                 </a>
             </div>
@@ -75,7 +76,7 @@
                 </form>
                 
                 <div class="login-footer">
-                    <p>Don't have an account? <a href="sign-up.html" class="signup-link">Sign Up</a></p>
+                    <p>Don't have an account? <a href="sign-up.php" class="signup-link">Sign Up</a></p>
                 </div>
             </div>
             

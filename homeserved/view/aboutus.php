@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CleanHome - Types of Cleaning</title>
     <link rel="stylesheet" href="../public/css/aboutusstlye.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <body>
@@ -15,14 +16,14 @@
             <div class="container">
                 <div class="logo">
                     <img src="../public/image/house-icon.png" alt="House Icon">
-                    <h1><span class="green">CLEAN</span>HOME</h1>
+                    <h1><span class="green">HOME</span>SERVE</h1>
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="../public/homepage.php"><img src="../public/image/home-icon.png" alt="Home"></a></li>
-                        <li><a href="../view/aboutus.php" class="active">About</a></li>
-                        <li><a href="../view/types.php">Types of Cleaning</a></li>
-                        <li><a href="../view/faq.php">FAQs</a></li>
+                        <li><a href="../public/homepage.php"><img src="home-icon.png" alt="Home"></a></li>
+                        <li><a href="aboutus.php" class="active">About</a></li>
+                        <li><a href="types.php">Types of Cleaning</a></li>
+                        <li><a href="faq.php">FAQs</a></li>
                         <li><a href="#">Be a Cleanhome Partner</a></li>
                     </ul>
                 </nav>
