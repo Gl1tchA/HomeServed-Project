@@ -12,6 +12,7 @@ body {
 }
 
 .container {
+    display: flex; /*for profilepage only*/
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
@@ -119,22 +120,37 @@ footer {
 
 
 
+
 /* Login Page Styles */
+/*.login-container {
+    display: flex;
+    min-height: calc(100vh - 80px);
+    max-width: 1200px;
+    margin: 0 auto;
+}*/
+
 .login-container {
+    position: relative;
     display: flex;
     min-height: calc(100vh - 80px);
     max-width: 1200px;
     margin: 0 auto;
 }
 
+
+
 .login-box {
-    flex: 1;
+    position: absolute;
+    z-index: 10; /* Must be higher than green square */
     background-color: white;
     padding: 60px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    width: 600px;
+    top: 40%;
+    transform: translateY(-50%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
+
+
 
 .login-box h2 {
     font-size: 32px;
@@ -168,6 +184,22 @@ footer {
     border: 1px solid #ddd;
     border-radius: 8px;
     font-size: 16px;
+}
+.form-group select{
+    padding: 12px 2px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.oneline {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap; /* Optional: allows them to wrap on small screens */
+    margin-bottom: 1rem;
+}
+.form-field {
+    flex: 1;
+    min-width: 150px;
 }
 
 .form-options {
@@ -221,34 +253,72 @@ footer {
 }
 
 /* Login Image Section */
-.login-image {
+/*.login-image {
     flex: 1;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
+}*/
+
+.login-image {
+    flex: 1;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 
-.green-circle {
+
+/*.green-circle {
     position: absolute;
     width: 800px;
     height: 800px;
     background-color: #4ce79a;
     border-radius: 50%;
     z-index: 1;
+}*/
+
+.green-circle {
+    position: absolute;
+    width: 700px;
+    height: 600px;
+    background-color: #4ce79a;
+    top: 30%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px; /* Optional: for nice square with rounded corners */
 }
 
-.login-image img {
+
+/*.login-image img {
     position: relative;
     max-width: 90%;
     z-index: 2;
+}*/
+
+.login-image img {
+    position: absolute;
+    width: 400px;
+    height: auto;
+    left: 52%;
+    top: 70px;
+    z-index: 6; /* Above green square but still contained */
 }
+
 
 .login-message {
     position: absolute;
-    bottom: 40px;
-    left: 40px;
+    bottom: 200px;
     background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
     border-radius: 10px;
@@ -284,3 +354,9 @@ footer {
         max-width: 100%;
     }
 }
+
+
+
+
+
+
