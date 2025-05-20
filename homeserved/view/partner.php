@@ -4,32 +4,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQs - CleanHome</title>
+    <title>Be a HomeServe Partner!</title>
     <link rel="stylesheet" href="../public/css/partnerstyle.css">
+    <link rel="stylesheet" href="../public/css/generalcss.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito&display=swap">
     <link rel="stylesheet" href="../public/css/signup.css">
 
 </head>
 
 <body>
+    <?php
+    session_start();  // Make sure session is started
+    ?>
     <header>
         <div class="container">
             <div class="logo">
-                <img src="../public/image/house-icon.png" alt="House Icon">
-                <h1><span class="green">HOME</span>SERVE</h1>
+                <img src="../public/image/logo.png" alt="House Icon">
+                <h1>HOMESERVE</h1>
             </div>
             <nav>
                 <ul>
                     <li><a href="../public/homepage.php"><img src="../public/image/home-icon.png" alt="Home"></a></li>
                     <li><a href="../view/aboutus.php">About</a></li>
                     <li><a href="../view/types.php">Types of Cleaning</a></li>
-                    <li><a href="../view/faq.php" class="active">FAQs</a></li>
-                    <li><a href="partners.html">Be a Cleanhome Partner</a></li>
+                    <li><a href="../view/faq.php">FAQs</a></li>
+                    <li><a href="../view/partner.php" class="active">Be a HomeServe Partner</a></li>
                 </ul>
             </nav>
+            <?php
+            require_once '../view/login_nav.php';
+            ?>
+
+
 
         </div>
     </header>
+
 
     <main>
 

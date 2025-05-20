@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CleanHome - Login</title>
+    <title>HomeServe - Login</title>
     <link rel="stylesheet" href="../public/css/loginstyles.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito&display=swap">
 </head>
 <body>
     <?php
@@ -27,16 +29,16 @@
     <header>
         <div class="container">
             <div class="logo">
-                <img src="../public/image/house-icon.png" alt="House Icon">
-                <h1><span class="green">CLEAN</span>HOME</h1>
+                <img src="../public/image/logo.png" alt="House Icon">
+                <h1>HOMESERVE</h1>
             </div>
             <nav>
                 <ul>
-                    <li><a href="../public/homepage.php"><img src="image/home-icon.png" alt="Home"></a></li>
-                    <li><a href="aboutus.php">About</a></li>
-                    <li><a href="types.php">Types of Cleaning</a></li>
-                    <li><a href="#">FAQs</a></li>
-                    <li><a href="#">Be a Cleanhome Partner</a></li>
+                    <li><a href="../public/homepage.php"><img src="../public/image/home-icon.png" alt="Home"></a></li>
+                    <li><a href="../view/aboutus.php">About</a></li>
+                    <li><a href="../view/types.php">Types of Cleaning</a></li>
+                    <li><a href="../view/faq.php">FAQs</a></li>
+                    <li><a href="../view/partner.php">Be a HomeServe Partner</a></li>
                 </ul>
             </nav>
             <div class="login-btn">
@@ -93,7 +95,7 @@
 
     <footer>
         <div class="footer-container">
-            <p>&copy; 2025 CleanHome. All rights reserved.</p>
+            <p>&copy; 2025 HomeServe. All rights reserved.</p>
         </div>
     </footer>
 

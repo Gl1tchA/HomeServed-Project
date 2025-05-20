@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CleanHome - Types of Cleaning</title>
+    <title>Types of Cleaning</title>
     <link rel="stylesheet" href="../public/css/types-cleaning-styles.css">
+    <link rel="stylesheet" href="../public/css/generalcss.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito&display=swap">
 </head>
 <body>
     <?php
@@ -14,16 +16,16 @@
     <header>
         <div class="container">
             <div class="logo">
-                <img src="../public/image/house-icon.png" alt="House Icon">
-                <h1><span class="green">HOME</span>SERVE</h1>
+                <img src="../public/image/logo.png" alt="House Icon">
+                <h1>HOMESERVE</h1>
             </div>
             <nav>
                 <ul>
-                    <li><a href="../public/homepage.php"><img src="image/home-icon.png" alt="Home"></a></li>
+                    <li><a href="../public/homepage.php"><img src="../public/image/home-icon.png" alt="Home"></a></li>
                     <li><a href="aboutus.php">About</a></li>
                     <li><a href="types.php" class="active">Types of Cleaning</a></li>
                     <li><a href="faq.php">FAQs</a></li>
-                    <li><a href="#">Be a Cleanhome Partner</a></li>
+                    <li><a href="#">Be a HomeServe Partner</a></li>
                 </ul>
             </nav>
             <?php
@@ -49,7 +51,7 @@
                         <h2>Deep Cleaning</h2>
                         <p>A comprehensive cleaning service that reaches every nook and cranny. Perfect for seasonal cleaning or homes that haven't been professionally cleaned in a while.</p>
                         <p>Our deep cleaning includes detailed attention to bathrooms, kitchens, floors, and hard-to-reach areas that are often overlooked.</p>
-                        <p class="image-credit">Image from <a href="#">CleanHome</a></p>
+                        <p class="image-credit">Image from <a href="#">HomeServe</a></p>
                         <a href="#" class="btn-read-more">READ MORE</a>
                     </div>
                     <div class="slide-image">
@@ -65,7 +67,7 @@
                         <h2>Basic Electronics</h2>
                         <p>Need some help with electronics but you don't have the knowledge? Book an electritian now to solve your problem and to keep your household safe.</p>
                         <p>Our basic electronics service includes help with wiring, device setup, minor repairs, and ensuring your electronics function smoothly.</p>
-                        <p class="image-credit">Image from <a href="#">CleanHome</a></p>
+                        <p class="image-credit">Image from <a href="#">HomeServe</a></p>
                         <a href="#" class="btn-read-more">READ MORE</a>
                     </div>
                     <div class="slide-image">
@@ -81,7 +83,7 @@
                         <h2>Plumbing</h2>
                         <p>A professional service to keep your plumbing system in top shape. Perfect for addressing leaks, clogs, and routine maintenance.</p>
                         <p>Our plumbing service includes fixing leaks, unclogging drains, installing fixtures, and ensuring your pipes work efficiently.</p>
-                        <p class="image-credit">Image from <a href="#">CleanHome</a></p>
+                        <p class="image-credit">Image from <a href="#">HomeServe</a></p>
                         <a href="#" class="btn-read-more">READ MORE</a>
                     </div>
                     <div class="slide-image">
@@ -97,7 +99,7 @@
                         <h2>Childcare</h2>
                         <p>A caring and responsible service for parents needing assistance with their little ones. Ideal for busy families or occasional babysitting needs.</p>
                         <p>Our childcare service includes attentive supervision, meal preparation, educational activities, and creating a safe, nurturing environment.</p>
-                        <p class="image-credit">Image from <a href="#">CleanHome</a></p>
+                        <p class="image-credit">Image from <a href="#">HomeServe</a></p>
                         <a href="#" class="btn-read-more">READ MORE</a>
                     </div>
                     <div class="slide-image">
@@ -113,7 +115,7 @@
                         <h2>Gardening</h2>
                         <p>A dedicated service to keep your outdoor space looking its best. Perfect for maintaining healthy plants and creating a beautiful garden.</p>
                         <p>Our gardening service includes lawn care, plant maintenance, weeding, pruning, and ensuring your garden flourishes year-round.</p>
-                        <p class="image-credit">Image from <a href="#">CleanHome</a></p>
+                        <p class="image-credit">Image from <a href="#">HomeServe</a></p>
                         <a href="#" class="btn-read-more">READ MORE</a>
                     </div>
                     <div class="slide-image">
@@ -171,7 +173,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 CleanHome. All rights reserved.</p>
+            <p>&copy; 2025 HomeServe. All rights reserved.</p>
         </div>
     </footer>
 

@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CleanHome - Types of Cleaning</title>
+    <title>About Us</title>
     <link rel="stylesheet" href="../public/css/aboutusstlye.css">
+    <link rel="stylesheet" href="../public/css/generalcss.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito&display=swap">
 </head>
 <body>
     <body>
@@ -15,16 +17,16 @@
         <header>
             <div class="container">
                 <div class="logo">
-                    <img src="../public/image/house-icon.png" alt="House Icon">
-                    <h1><span class="green">HOME</span>SERVE</h1>
+                    <img src="../public/image/logo.png" alt="House Icon">
+                    <h1>HOMESERVE</h1>
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="../public/homepage.php"><img src="home-icon.png" alt="Home"></a></li>
+                        <li><a href="../public/homepage.php"><img src="../public/image/home-icon.png" alt="Home"></a></li>
                         <li><a href="aboutus.php" class="active">About</a></li>
                         <li><a href="types.php">Types of Cleaning</a></li>
                         <li><a href="faq.php">FAQs</a></li>
-                        <li><a href="#">Be a Cleanhome Partner</a></li>
+                        <li><a href="../view/partner.php">Be a HomeServe Partner</a></li>
                     </ul>
                 </nav>
                 <?php
@@ -48,7 +50,7 @@
             <section class="about-content">
                 <div class="container">
                     <h2>Who We Are</h2>
-                    <p>CleanHome is dedicated to making your home and office cleaner, healthier, and more comfortable. With our experienced professionals, we ensure top-notch services tailored to your needs.</p>
+                    <p>HomeServe is dedicated to making your home and office cleaner, healthier, and more comfortable. With our experienced professionals, we ensure top-notch services tailored to your needs.</p>
     
                     <h2>Our Mission</h2>
                     <p>We believe in delivering high-quality, affordable, and eco-friendly cleaning solutions. Our goal is to provide a clean environment where you can live and work stress-free.</p>
@@ -66,7 +68,7 @@
     
         <footer>
             <div class="container">
-                <p>&copy; 2025 CleanHome. All rights reserved.</p>
+                <p>&copy; 2025 HomeServe. All rights reserved.</p>
             </div>
         </footer>
     </body>

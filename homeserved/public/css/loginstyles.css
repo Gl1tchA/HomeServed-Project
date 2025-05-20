@@ -52,7 +52,7 @@ header .container {
 
 .logo h1 {
     font-size: 24px;
-    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
 }
 
 nav img {
