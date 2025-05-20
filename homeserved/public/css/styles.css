@@ -51,7 +51,7 @@ header .container {
 
 .logo h1 {
     font-size: 24px;
-    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
 }
 
 nav img {
@@ -155,22 +155,14 @@ footer {
     position: relative;
 }
 
-.green-circle {
-    position: absolute;
-    width: 800px;
-    height: 800px;
-    background-color: #4ce79a;
-    border-radius: 50%;
-    top: -300px;
-    right: -300px;
-    z-index: -1;
-}
+
 
 .hero-image img {
-    position: relative;
-    width: 100%;
-    max-width: 600px;
-    z-index: 1;
+    position: absolute;
+    width: auto;
+    max-width: none;
+    right: -750px; /* Pull it slightly off the right edge */
+    top: -490px; /* Position it higher than the container */
 }
 
 /* Cleaning Panel */
@@ -272,4 +264,69 @@ footer {
     .service-card.active {
         top: 0;
     }
+}
+
+
+
+/* Additional Services Section */
+.cleaning-services {
+    padding: 60px 0;
+    background-color: white;
+}
+
+.cleaning-services h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.service-card {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+    font-size: 36px;
+    color: #22bb74;
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.btn-service {
+    display: inline-block;
+    background-color: #22bb74;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-service:hover {
+    background-color: #1a9d60;
 }
